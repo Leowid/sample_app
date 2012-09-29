@@ -7,6 +7,12 @@ group :development, :test do
   gem 'rspec-rails', '2.11.0'
 end
 
+gem 'annotate', '2.5.0', group: :development
+
+group :test do
+
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -26,6 +32,7 @@ group :production do
 end
 
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby', '3.0.1'
 
 # Deploy with Capistrano
 # gem 'capistrano'
